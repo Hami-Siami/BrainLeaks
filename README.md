@@ -27,10 +27,10 @@ The repository includes the following files:
 
 - **Inverted**: Pytorch tensors containing the reconstructed samples
   - Format: [Dataset Name] + [ANN/SNN] + [Inverted] + [ - / BL1 / BL2 ]
-  - 
+    
 - **Data-Related files**: 
   1. Face_ATnT_Data.zip: Contains the AT&T Face Database training and test samples
-  2. ibm_gestures_train / ibm_gestures_test: Pytorch dataset object helpful for preprocessing stage of IBM data
+  2. ibm_gestures_[train/test]: Pytorch "Dataset" object helpful for preprocessing stage of IBM DVSGestures dataset. 
 
 ## Requirements
 
