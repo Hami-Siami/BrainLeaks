@@ -6,6 +6,9 @@ This repository contains the code for the paper ["BrainLeaks: On the Privacy-Pre
 
 In this work, we investigate the privacy-preserving properties of spiking neural networks (SNNs) and their vulnerability to model inversion attacks. We propose two novel model inversion attack techniques tailored for the spiking domain: BrainLeaks-v1 and BrainLeaks-v2.
 
+
+![BrainLeaks](https://github.com/user-attachments/assets/b316db8d-8ee6-497d-895b-966747a435d1)
+
 ## Datasets
 
 The experiments are conducted on the following datasets:
@@ -21,10 +24,10 @@ The repository includes the following files:
   - Format: [Dataset Name] + [SNN / ANN] + [Attack and/or Evaluation]
   - "Attack" corresponds to target model training and model inversion attack 
   - "Evaluation" corresponds to evaluation classifier training and the attack evaluation
-- **Weights**: State Dictionary of trained models (Target or Evaluation Classifiers)
-  - Format: [Dataset Name] + [SNN / ANN] + [Weights] + [Target / Eval]
+
 - **Inverted**: Pytorch tensors containing the reconstructed samples
   - Format: [Dataset Name] + [ANN/SNN] + [Inverted] + [ - / BL1 / BL2 ]
+  - 
 - **Data-Related files**: 
   1. Face_ATnT_Data.zip: Contains the AT&T Face Database training and test samples
   2. ibm_gestures_train / ibm_gestures_test: Pytorch dataset object helpful for preprocessing stage of IBM data
