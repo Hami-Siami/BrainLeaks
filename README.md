@@ -47,7 +47,6 @@ The code is written in **Python** and requires the following libraries:
 - 🎯 **[Tonic](https://tonic.readthedocs.io/en/latest/)**
 
 
-
 You can install the required libraries using pip:
 
 ```bash
